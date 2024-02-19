@@ -69,7 +69,7 @@ forward(200)
 end_fill()
 
 
-#sun Added everything
+#sun 
 speed(1)
 penup()
 goto(300, 300) 
@@ -104,6 +104,7 @@ right(90)
 forward(160)
 end_fill()
 
+#roof
 penup()
 goto(-400,200) 
 pendown()

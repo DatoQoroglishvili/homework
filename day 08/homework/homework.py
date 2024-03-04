@@ -60,3 +60,12 @@ if user_input==985:
     print("you won!")
 else:
     print("you lose!")
+
+user_input=int(input("please enter number"))
+
+if  user_input==230:
+     print("you won!")
+else:
+    print("you lose!")
+
+

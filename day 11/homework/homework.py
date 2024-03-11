@@ -7,48 +7,53 @@ for i in range(2, 21, 2):
     print(i)
 
 # 3
+sum=1
 for i in range(5, 11):
-    pasuxi = i * i
-    print(f"{i} * {i} = {pasuxi}")
+    sum *=i
+print(f"sum of numbers from 5 to 10 is {sum}")
 
 #4
-print(input("enter number"))
-def fact( n):
-  if n>1:
-    return n*fact(n-1)
-  else:
-    return 1.
-n=int(input('enter the number'))
-print("Factorial of ",n,"is - ", fact(n))
+user_input=int(input("enter number: "))
+factorial=1
+for i in range (1,user_input+1):
+    factorial*=i
+print (f"factorial for {user_input} is {factorial} or {user_input}! is {factorial}")
 
-
- # 5 ???
-    
-    
-
+ # 5
+user_input = int(input("Enter whole number: "))
+if user_input % 2 == 0:
+    user_input /= 2
+    print(int(user_input))
+else:
+    new_num = user_input * 3 + 1
+    print(new_num)
     
 #6
-for i in range(10, 1, -1):
-     print(i)
+num=10
+while num>=1:
+    print(num)
+    num-=1
 
 #7
-name=str(input("Please enter your name: "))
-if name =="quit":
-   print("you are in")
-elif name!="quit":
-   print("its incorrect")
+name=(input("Please enter your name: "))
+while name!="quit":
+    name=(input("Please enter your name: "))
 
 #8
-for i in range(10,21,2):
-   print(i)
+num=10
+while  num<20:
+    print(num)
+    num+=2
 
 #9
-num =int(input("Please enter positive number: "))
-if num >0:
-   print("you have written positive number.")
-elif num <0:
-    (print("you have written negative number."))
+num =int(input("Please enter number: "))
+while num<=0:
+    num =int(input("Please enter number: "))
 
 #10
-for i in range(1, 11):
-    print(i*i)
+num=1
+while num<=10:
+    new_num=num**2
+    print(new_num)
+    num+=1
+    

@@ -62,4 +62,25 @@ elif operation == '/':
 else:
     print("operation is not valid")
 
-#7
+#7?
+    
+
+
+#8
+birth=int(input("enter your birthday time"))
+if birth %4 == 0:
+  print("ნაკიანი წელია") 
+else:
+  print("არ არის ნაკიანი წელი")
+#9
+a = float(input("შეიყვანეთ პირველი კათეტი: "))
+b = float(input("შეიყვანეთ მეორე კათეტი: "))
+
+c = (a**2 + b**2) ** 0.5
+print("ჰიპოტენუზა არის:", c)       
+#10
+age=int(input("enter your age:"))
+if age>=18:
+  print("you can give your choice")
+else:
+  print("you cant give your choice")

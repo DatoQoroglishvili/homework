@@ -45,6 +45,15 @@ elif day_number == 7:
     print("sunday")
 else:
     print("its incorrect number")
+#6
+number = int(input("enter number "))
+
+if number == 0:
+    print("its zero")
+elif number % 2 == 0:
+    print("its even")
+else:
+    print("its oven")
 #7
 number = int(input("enter number "))
 if number == 0:

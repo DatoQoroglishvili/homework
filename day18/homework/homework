@@ -67,4 +67,5 @@ num /= 2
 # num = num % 6
 num %= 2
 
+
 print(num)

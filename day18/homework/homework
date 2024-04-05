@@ -50,3 +50,21 @@ for i in range(0, len(name)):
 
 print(even_indexes_string)
 
+num = 5
+
+# num = num + 3
+num += 3
+
+# num = num - 14
+num -= 14
+
+# num = num * 3
+num *= 3
+
+# num = num / 2
+num /= 2
+
+# num = num % 6
+num %= 2
+
+print(num)

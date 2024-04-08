@@ -1,4 +1,4 @@
-list_of_names=["dato", "nika", "luka", "lizi","mari"]
+list_names=["dato", "nika", "luka", "lizi","mari"]
 input1=int(input("enter number from 0 to 4;"))
 if input1 == 0:
     print("dato")

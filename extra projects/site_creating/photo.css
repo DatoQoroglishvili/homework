@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #background-image {
+    background: url("Sneaker_NBA_Hero.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  #container {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }

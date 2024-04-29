@@ -17,7 +17,7 @@ elif num=="victor wembanyama":
 elif num=="sandro mamukelashvili":
     print("he is georgian so i guess he playes wery well to")
 elif num=="antony edwars":
-    print("he plays so well to")
+    print("he plays so well")
 
 #end of currently active players
 #lmao

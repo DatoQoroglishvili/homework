@@ -1,4 +1,4 @@
-num=input("please enter yours idea who is best player in nba history:")
+num=input("please enter yours idea who is best player in nba history (put name and surname to):")
 #currently active players
 if num=="lebron james ":
     print("you are wrong because he is second best player ")

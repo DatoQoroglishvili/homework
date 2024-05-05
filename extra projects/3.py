@@ -48,4 +48,4 @@ elif num=="will simth":
 elif num=="dennis rodmen" :
     print("idk best player but he is best rebounder")
 else:
-    print("idk what are you thinking about not going to lie but tell me and i will add to the list :DDDDD")
+    print("idk what are you thinking about not going to lie but tell me and i will add to these lists :DDDDD")
